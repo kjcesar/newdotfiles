@@ -1,0 +1,2 @@
+# newdotfiles
+bspwm rofi polybar
