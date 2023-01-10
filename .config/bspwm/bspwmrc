@@ -1,7 +1,6 @@
 #! /bin/sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-polybar -r example &
 picom &
 dunst &
 wal -i /home/kcesar/Pictures/Anime -a 97 
@@ -37,5 +36,5 @@ bspc config presel_feedback_color "$color1"
 
 #autostart
 nm-applet &
-nextcloud &
 xbindkeys &
+polybar -r example &

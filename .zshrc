@@ -1,6 +1,5 @@
 
 
-neofetch
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -115,6 +114,8 @@ source $ZSH/oh-my-zsh.sh
 alias pacup='sudo pacman -Syu'
 alias services='systemctl --type=service'
 alias config='/usr/bin/git --git-dir=/home/kcesar/.cfg/ --work-tree=/home/kcesar'
+alias yt="yt-dlp -f 'bestvideo[ext=mp4][height<=720]+bestaudio[ext=m4a]' -o '%(title)s'"
+alias at='alacritty-themes'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
